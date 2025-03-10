@@ -442,6 +442,10 @@
                 "path": "./snippets/latex/beamer.json"
             },
             {
+                "language": ["latex-tikz"],
+                "path": "./snippets/latex/tikz.json"
+            },
+            {
                 "language": "twig",
                 "path": "./snippets/frameworks/twig.json"
             },
