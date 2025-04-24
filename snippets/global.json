@@ -57,6 +57,13 @@
       "body": ["${CURRENT_DATE}.${CURRENT_MONTH}.${CURRENT_YEAR}"],
       "description": "Put date in (D.M.Y) format"
     },
+    "timestamp": {
+        "prefix": "timestamp",
+        "body": [
+            "${CURRENT_SECOND_UNIX}"
+        ],
+        "dsecription": "I give you back the current timestamp (seconds since unix epoch)"
+    },
     "uuid": {
         "prefix": "uuid",
         "body": "${UUID}",
